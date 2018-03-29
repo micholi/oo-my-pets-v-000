@@ -16,7 +16,7 @@ attr_reader :species
   def initialize(species)
     @species = species
     @@all << self
-  
+
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
@@ -37,24 +37,24 @@ attr_reader :species
 
 # Instance Methods
 
-  def species
+  #def species
     # initializes with a species
     # can't change its species
     # can say its species
 
-    @species = species
-    puts "I am a #{species}."
-  end
+#    @species = species
+#    puts "I am a #{species}."
+#  end
 
   def name(name = nil)
     # can have a name
     @name = name
   end
 
-  def pets
-    # is initialized with a pets attribute as a hash with 3 keys
-    @pets = {fishes: [], cats: [], dogs: []}
-  end
+#  def pets
+#    # is initialized with a pets attribute as a hash with 3 keys
+#    @pets = {fishes: [], cats: [], dogs: []}
+#  end
 
   def buy_fish
     # buy a fish that is an instance of the Fish class
