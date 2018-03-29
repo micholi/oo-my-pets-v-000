@@ -81,9 +81,9 @@ attr_reader :species
 
   def sell_pets
   # can sell all its pets, which make them nervous
-  pets.each do |type, pet_instances|
-    pet_instances.each do |pet|
-      pet.mood = "nervous"
+    pets.each do |type, pet_instances|
+      pet_instances.each do |pet|
+        pet.mood = "nervous"
     end
     pet_instances.clear
   end
@@ -91,7 +91,6 @@ attr_reader :species
 
   def list_pets
   # can list off its pets
-
   fish_num = pets[:fishes].count
   dog_num = pets[:dogs].count
   cat_num = pets[:cats].count
