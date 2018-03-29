@@ -18,12 +18,12 @@ attr_reader :species
     @@all
   end
 
-  # can count how many owners have been created
+  # can count how many owners have been created - FAILING
   def self.count
     @@all.count
   end
 
-  # can reset the owners that have been created
+  # can reset the owners that have been created - FAILING
   def self.clear_all
     @@all.clear
   end
