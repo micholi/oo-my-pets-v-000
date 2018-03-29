@@ -25,6 +25,16 @@ class Owner
 
   end
 
+  def sell_pets
+    # can sell all its pets, which make them nervous
+
+  end
+
+  def list_pets
+    # can list off its pets
+
+  end
+
 
   
 end
