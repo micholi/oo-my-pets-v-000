@@ -43,43 +43,43 @@ attr_reader :species
   end
 
   def buy_fish(name)
-    # buy a fish that is an instance of the Fish class
-    # knows about its fishes
+  # buy a fish that is an instance of the Fish class
+  # knows about its fishes
     fish = Fish.new(name)
     pets[:fishes] << fish
   end
 
   def buy_cat(name)
-    # can buy a cat that is an instance of the Cat class
-    # knows about its cats
+  # can buy a cat that is an instance of the Cat class
+  # knows about its cats
     cat = Cat.new(name)
     pets[:cats] << cat
   end
 
   def buy_dog(name)
-    # can buy a dog that is an instance of the Dog class
-    # knows about its dogs
+  # can buy a dog that is an instance of the Dog class
+  # knows about its dogs
     dog = Dog.new(name)
     pets[:dogs] << dog
   end
 
   def walk_dogs
-    # walks the dogs which makes the dogs' moods happy
+  # walks the dogs which makes the dogs' moods happy
     pets[:dogs].each {|dog| dog.mood = "happy"}
   end
 
   def play_with_cats
-    # plays with the cats which makes the cats moods happy
+  # plays with the cats which makes the cats moods happy
     pets[:cats].each {|cat| cat.mood = "happy"}
   end
 
   def feed_fish
-    # feeds the fishes which makes the fishes' moods happy
+  # feeds the fishes which makes the fishes' moods happy
     pets[:fishes].each {|fish| fish.mood = "happy"}
   end
 
   def sell_pets
-    # can sell all its pets, which make them nervous
+  # can sell all its pets, which make them nervous
 
   end
 
