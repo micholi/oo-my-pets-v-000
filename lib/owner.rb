@@ -41,7 +41,7 @@ attr_reader :species
     "I am a #{species}."
   end
 
-  def name(name = nil)
+  def name(name)
     # can have a name
     @name = name
   end
