@@ -29,7 +29,7 @@ attr_reader :species
   def self.count
   # can count how many owners have been created
     @@all.count
-    binding.pry
+  binding.pry
   end
 
   def self.clear_all
