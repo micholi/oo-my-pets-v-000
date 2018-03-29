@@ -21,9 +21,9 @@ attr_reader :species
 
   end
 
-  def name
+  def name(name = nil)
     # can have a name
-
+    @name = name
   end
 
   def pets
