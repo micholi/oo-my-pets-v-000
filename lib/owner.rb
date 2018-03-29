@@ -32,11 +32,11 @@ attr_reader :species
 
 # Instance Methods
 
-  def species
+  def species(species)
     # initializes with a species
     # can't change its species
     # can say its species
-
+    @species = species
   end
 
   def name(name = nil)
