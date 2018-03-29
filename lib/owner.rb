@@ -5,6 +5,8 @@ attr_reader :species
 
 @@all = []
 
+# Instance Methods
+
   def initialize(species, name = nil)
   # can initialize an owner
   # initializes with a species
@@ -16,25 +18,6 @@ attr_reader :species
     @@all << self
     @pets = {fishes: [], cats: [], dogs: []}
   end
-
-# Class Methods
-
-  def self.all
-  # keeps track of the owners that have been created
-    @@all
-  end
-
-  def self.count
-  # can count how many owners have been created
-    @@all.size
-  end
-
-  def self.clear_all
-  # can reset the owners that have been created
-    @@all.clear
-  end
-
-# Instance Methods
 
   def say_species
   #can say its species
@@ -95,5 +78,22 @@ attr_reader :species
 
     "I have #{fish_num} fish, #{dog_num} dog(s), and #{cat_num} cat(s)."
   end
+
+  # Class Methods
+
+    def self.all
+    # keeps track of the owners that have been created
+      @@all
+    end
+
+    def self.count
+    # can count how many owners have been created
+      @@all.size
+    end
+
+    def self.clear_all
+    # can reset the owners that have been created
+      @@all.clear
+    end
 
 end
