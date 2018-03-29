@@ -84,15 +84,14 @@ attr_reader :species
   end
 
   def list_pets
-    # can list off its pets
-    #pets.each do |pet, list|
+  # can list off its pets
 
-# fishes, cats, dogs
   fish_num = pets[:fishes].count
-  "I have #{fish_num}fish"
-    #end
+  dog_num = pets[:dogs].count
+  cat_num = pets[:cats].count
+
+    "I have #{fish_num} fish, #{dog_num} dog(s), and #{cat_num} cat(s)."
+
   end
-
-
 
 end
