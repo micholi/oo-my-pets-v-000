@@ -21,8 +21,8 @@ attr_reader :species
 
 # Class Methods
 
-  # keeps track of the owners that have been created
   def self.all
+  # keeps track of the owners that have been created
     @@all
   end
 
