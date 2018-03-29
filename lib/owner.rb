@@ -7,9 +7,6 @@ attr_reader :species
 
 @@all = []
 
-
-
-
   def initialize(species, name = nil)
   # can initialize an owner
   # initializes with a species
