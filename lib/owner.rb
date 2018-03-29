@@ -36,7 +36,7 @@ attr_reader :species
     # initializes with a species
     # can't change its species
     # can say its species
-    @species = species
+    
 
     puts "I am a #{species}."
   end
