@@ -88,6 +88,7 @@ attr_reader :species
     pets.each do |pet, list|
 
 # fishes, cats, dogs
+  fish_num = pets[:fishes].count
   "I have"
     end
   end
