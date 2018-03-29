@@ -38,7 +38,7 @@ attr_reader :species
 # Instance Methods
 
   def say_species
-    puts "I am a #{species}."
+    "I am a #{species}."
   end
 
   def name(name = nil)
