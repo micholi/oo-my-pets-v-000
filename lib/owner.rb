@@ -1,5 +1,7 @@
 class Owner
 
+  attr_accessor :pets
+
 # Class Methods
 
   # keeps track of the owners that have been created
@@ -13,7 +15,7 @@ class Owner
     # initializes with a species
     # can't change its species
     # can say its species
-    
+
   end
 
   def name
