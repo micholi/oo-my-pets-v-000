@@ -7,5 +7,5 @@ attr_reader :name
     @name = name
     @mood = "nervous"
   end
-    
+
 end
