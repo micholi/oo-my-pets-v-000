@@ -1,6 +1,11 @@
 class Owner
 
 
+  def species
+    # can say its species
+    
+  end
+
   def name
     # can have a name
 
@@ -8,7 +13,7 @@ class Owner
 
   def pets
     # is initialized with a pets attribute as a hash with 3 keys
-    
+
   end
 
   def buy_fish
