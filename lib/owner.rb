@@ -89,7 +89,7 @@ attr_reader :species
 
 # fishes, cats, dogs
   fish_num = pets[:fishes].count
-  "I have"
+  "I have #{fish_num}fish"
     end
   end
 
