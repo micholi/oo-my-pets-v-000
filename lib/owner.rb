@@ -2,6 +2,8 @@ class Owner
 
   attr_accessor :pets
 
+@@owners = []
+
 # Class Methods
 
   # keeps track of the owners that have been created
