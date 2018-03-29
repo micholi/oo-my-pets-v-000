@@ -39,6 +39,7 @@ attr_reader :species
 # Instance Methods
 
   def say_species
+  #can say its species
     "I am a #{species}."
   end
 
