@@ -7,7 +7,7 @@ attr_reader :species
 
 @@all = []
 
-# Class Methods
+
 
 
   def initialize(species, name = nil)
@@ -21,6 +21,8 @@ attr_reader :species
     @@all << self
     @pets = {fishes: [], cats: [], dogs: []}
   end
+
+# Class Methods
 
   # keeps track of the owners that have been created
   def self.all
