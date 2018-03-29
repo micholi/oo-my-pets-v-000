@@ -10,13 +10,12 @@ attr_reader :species
   # can initialize an owner
   def initialize(name)
     @name = name
-    #self
     @@all << self
   end
 
   # keeps track of the owners that have been created
   def self.all
-    @all
+    @@all
   end
 
   # can count how many owners have been created
