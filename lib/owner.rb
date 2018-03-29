@@ -45,7 +45,7 @@ attr_reader :species
   def buy_fish(name)
     # buy a fish that is an instance of the Fish class
     # knows about its fishes
-    @fish = Fish.new(name)
+    fish = Fish.new(name)
     pets[:fishes] << fish
   end
 
