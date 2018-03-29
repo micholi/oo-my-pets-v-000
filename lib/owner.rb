@@ -10,18 +10,23 @@ class Owner
   end
 
   def buy_dog
+    # can buy a dog that is an instance of the Dog class
+    # knows about its dogs
 
   end
 
   def walk_dogs
+    # walks the dogs which makes the dogs' moods happy
 
   end
 
   def play_with_cats
+    # plays with the cats which makes the cats moods happy
 
   end
 
   def feed_fish
+    # feeds the fishes which makes the fishes' moods happy
 
   end
 
@@ -36,5 +41,5 @@ class Owner
   end
 
 
-  
+
 end
