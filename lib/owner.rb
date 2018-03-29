@@ -9,10 +9,15 @@ attr_reader :species
 
 # Class Methods
 
-  # can initialize an owner
-  def initialize(name)
-    @name = name
+  # can initialize an owner ??
+  # initializes with a species
+  # can't change its species
+  # is initialized with a pets attribute as a hash with 3 keys
+  def initialize(species)
+    @species = species
     @@all << self
+  
+    @pets = {fishes: [], cats: [], dogs: []}
   end
 
   # keeps track of the owners that have been created
@@ -36,8 +41,8 @@ attr_reader :species
     # initializes with a species
     # can't change its species
     # can say its species
-    
 
+    @species = species
     puts "I am a #{species}."
   end
 
