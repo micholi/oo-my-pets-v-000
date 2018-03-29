@@ -1,7 +1,17 @@
 class Owner
 
+# Class Methods
+
+  # keeps track of the owners that have been created
+  # can count how many owners have been created
+  # can reset the owners that have been created
+  # can initialize an owner
+
+# Instance Methods
 
   def species
+    # initializes with a species
+    # can't change its species
     # can say its species
     
   end
