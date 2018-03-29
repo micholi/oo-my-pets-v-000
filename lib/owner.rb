@@ -82,7 +82,7 @@ attr_reader :species
   def sell_pets
   # can sell all its pets, which make them nervous
   pets.each do |type, p|
-    p.empty
+    p.empty?
     type.each do |pet|
       pet.mood = "nervous"
     end
