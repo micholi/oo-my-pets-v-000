@@ -37,6 +37,8 @@ attr_reader :species
     # can't change its species
     # can say its species
     @species = species
+
+    puts "I am a #{species}."
   end
 
   def name(name = nil)
