@@ -22,7 +22,7 @@ attr_reader :species
   def self.count
     self.count
   end
-  
+
   # can reset the owners that have been created
   def self.reset
     @@all.empty
