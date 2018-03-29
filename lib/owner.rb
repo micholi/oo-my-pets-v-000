@@ -46,11 +46,6 @@ attr_reader :species
     @name = name
   end
 
-#  def pets
-#    # is initialized with a pets attribute as a hash with 3 keys
-#    @pets = {fishes: [], cats: [], dogs: []}
-#  end
-
   def buy_fish
     # buy a fish that is an instance of the Fish class
     # knows about its fishes
