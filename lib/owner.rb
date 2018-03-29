@@ -85,7 +85,11 @@ attr_reader :species
 
   def list_pets
     # can list off its pets
+    pets.each do |pet, list|
 
+# fishes, cats, dogs
+  "I have"
+    end
   end
 
 
