@@ -24,8 +24,8 @@ attr_reader :species
   end
 
   # can reset the owners that have been created
-  def self.reset
-    @@all.empty
+  def self.clear_all
+    @@all.clear
   end
 
 # Instance Methods
