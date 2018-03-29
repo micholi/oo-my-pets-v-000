@@ -20,7 +20,7 @@ attr_reader :species
 
   # can count how many owners have been created
   def self.count
-    self.count
+    @@all.count
   end
 
   # can reset the owners that have been created
