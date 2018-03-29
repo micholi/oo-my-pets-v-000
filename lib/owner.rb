@@ -91,7 +91,7 @@ attr_reader :species
       @@all.size
     end
 
-    def self.clear_all
+    def self.reset_all
     # can reset the owners that have been created
       @@all.clear
     end
