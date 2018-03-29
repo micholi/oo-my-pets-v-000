@@ -13,8 +13,9 @@ attr_reader :species
   # initializes with a species
   # can't change its species
   # is initialized with a pets attribute as a hash with 3 keys
-  def initialize(species)
+  def initialize(species, name = nil)
     @species = species
+    @name = name
     @@all << self
 
     @pets = {fishes: [], cats: [], dogs: []}
@@ -41,10 +42,10 @@ attr_reader :species
     "I am a #{species}."
   end
 
-  def name
+#  def name
     # can have a name
-    @name = name
-  end
+#    @name = name
+#  end
 
   def buy_fish(name)
     # buy a fish that is an instance of the Fish class
