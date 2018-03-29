@@ -37,14 +37,9 @@ attr_reader :species
 
 # Instance Methods
 
-  #def species
-    # initializes with a species
-    # can't change its species
-    # can say its species
-
-#    @species = species
-#    puts "I am a #{species}."
-#  end
+  def say_species
+    puts "I am a #{species}."
+  end
 
   def name(name = nil)
     # can have a name
