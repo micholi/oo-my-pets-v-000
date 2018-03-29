@@ -46,19 +46,19 @@ attr_reader :species
     @name = name
   end
 
-  def buy_fish
+  def buy_fish(name)
     # buy a fish that is an instance of the Fish class
     # knows about its fishes
 
   end
 
-  def buy_cat
+  def buy_cat(name)
     # can buy a cat that is an instance of the Cat class
     # knows about its cats
 
   end
 
-  def buy_dog
+  def buy_dog(name)
     # can buy a dog that is an instance of the Dog class
     # knows about its dogs
 
