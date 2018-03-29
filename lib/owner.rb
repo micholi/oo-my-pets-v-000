@@ -75,7 +75,7 @@ attr_reader :species
 
   def feed_fish
     # feeds the fishes which makes the fishes' moods happy
-    fish.mood = "happy"
+    pets[:fishes].mood = "happy"
   end
 
   def sell_pets
