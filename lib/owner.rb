@@ -8,7 +8,8 @@ attr_reader :species
 # Class Methods
 
   # can initialize an owner
-  def initialize
+  def initialize(name)
+    @name = name
     self
     @@all << self
   end
@@ -22,7 +23,7 @@ attr_reader :species
   def self.count
     @@all.count
   end
-  
+
   # can reset the owners that have been created
   def self.reset
     @@all.empty
