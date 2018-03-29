@@ -81,7 +81,7 @@ attr_reader :species
 
   def sell_pets
   # can sell all its pets, which make them nervous
-  pets.empty
+  pets.clear
   end
 
   def list_pets
