@@ -5,21 +5,28 @@ attr_reader :species
 
 @@all = []
 
+# Class Methods
+
+  # can initialize an owner
   def initialize
     self
     @@all << self
   end
 
+  # keeps track of the owners that have been created
   def self.all
     @all
   end
 
-# Class Methods
-
-  # keeps track of the owners that have been created
   # can count how many owners have been created
+  def self.count
+    @@all.count
+  end
+  
   # can reset the owners that have been created
-  # can initialize an owner
+  def self.reset
+    @@all.empty
+  end
 
 # Instance Methods
 
