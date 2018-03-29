@@ -1,5 +1,3 @@
-require 'pry'
-
 class Owner
 
 attr_accessor :pets, :name
@@ -29,7 +27,6 @@ attr_reader :species
   def self.count
   # can count how many owners have been created
     @@all.count
-  binding.pry
   end
 
   def self.clear_all
